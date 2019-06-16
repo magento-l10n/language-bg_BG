@@ -3400,10 +3400,29 @@ unavailable.,недостъпно.
 "The requested Payment Method is not available.","Исканият метод на плащане не е наличен."
 "Payment On Account cannot be used for this order because your order amount exceeds your credit amount.","Плащане по Сметка не може да се осъществи за тази поръчка, защото стойността й надвишава вашия кредит."
 "Cannot process the request. Please check the operation type and try again.","Не може да се обработи заявката. Моля проверете типа на операцията и опитайте пак."
+"Invalid attribute value. Row ID: %fieldName = %fieldValue.","Невалидана стойност на атрибут. Row ID: %fieldName = %fieldValue."
+"The selected currency is not available. Please select a different currency.","Избраната валута не налична. Моля изберете друга."
+"Could not update history","Не може да се обнови историята"
+"Requested company is not found. Row ID: %fieldName = %fieldValue.","Исканата фирма не е намерена. Row ID: %fieldName = %fieldValue."
+"Cannot delete credit limit with id %1","Не може д асе изтрие кредител лимит с id %1"
+Allocated,Резервирано
 Updated,Актуализиран
 Purchased,Закупен
+Reimbursed,Реимбурсирано
 Reverted,Обърнат
+"Could not save history","Не може да се запази историята"
+"Cannot delete history with id %1","Не може да се изтрие история с id %1"
+"Could not save company credit limit","Не може да се запише фирмен цредител лимит"
+"Please enter a valid %1/%2 currency rate.","Моля въведете валиден %1/%2 валутен курс."
+"Invoice created for %1","Създадена е фактура за %1"
+"The selected credit currency is not valid. 
+                        Customers will not be able to place orders until you update the credit currency.","Избраната кредитна валута е невалидна. 
+                        Клиентите няма да могат да записват поръчки докато не промените кредитната валута."
 "Store Credit","Съхраняван баланс"
+"Refund to Company Credit","Възстановяване на Фирмен кредит"
+"An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity.","Не може да се създаде фактура за част от количеството на тази поръчка. За да продължите, посочете цялото количество."
+"We refunded %1 online.","Възстановихме %1 онлайн."
+"We refunded %1 offline.","Възстановихме %1 офлайн."
 "Exception Message","Съобщение за изключение"
 "No such entity","Няма такъв обект"
 "%1 made an update. %2 can exceed the Credit Limit.","%1 направи актуализация. %2 може да надвишава кредитния лимит."
