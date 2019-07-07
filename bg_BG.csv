@@ -3647,8 +3647,12 @@ Confirm,Потвърждение
 "For better results, add attributes and attribute values to your products.","За по-добри резултати, добавете атрибути и стойности за тях към продуктите ви."
 "Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).","Продукти с опции за конфигуриране позволяват на клиентите да избират опции (например: риза цвят). Трябва да се създаде продукт за всяка конфигурация (например: продукт за всеки цвят)."
 "Configurations cannot be created for a standard product with downloadable files. To create configurations, first remove all downloadable files.","Не може да се създават конфигурации за стандартни продукти с файлове за сваляне. За да създадете конфигурации, първо премахнете всики файлове за сваляне."
+"Add Products Manually","Ръчно добавяне на продукт"
 "Create Configurations","Създаване на конфигурации"
+"Current Variations","Текущи вариации"
 Weight,Тегло
+"Custom options with price type ""percent"" is not available for configurable product.","Персонализирани опции с цена тип ""процент"" не е достъпна за конфигурируеми продуки."
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Тази група съдържа атрибути използвани в конфигурируеми продукти. Моля преместете тези атрибути към друга група и опитайте пак."
 "Associated Products","Свързани с тях продукти"
 "Step 2: Attribute Values","Стъпка 2: Атрибут стойности"
 "Select values from each attribute to include in this product. Each unique combination of values creates a unique product SKU.","Изберете стойности от всеки атрибут, която да включите в този продукт. Всяка уникална комбинация от стойности създава уникален кат. номер."
