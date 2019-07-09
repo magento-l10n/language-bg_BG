@@ -10140,6 +10140,7 @@ Translate,Преведи
 "Maximum length of this field must be equal or less than %1 symbols.","Максималната дължина на това поле трябва да бъде равна или по-малко от %1 символа."
 "Admin is a required field in the each row.","Админ е задължително поле във всеки ред."
 "Please enter a quantity greater than 0.","Моля, въведете количество над 0."
+"Enter valid SKU key","Въведете валиден код на продукта"
 "Insert Variable","Добавете променлива"
 "The widget %1 is no longer available. Select a different widget.","Уиджет %1 не е на разположение в момента. Моля, изберете друг."
 "First character must be letter.","Първият символ трябва да е буква."
