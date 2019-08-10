@@ -6595,10 +6595,31 @@ Decline,Отхвърляне
 "This action cannot be performed because you have products requiring attention. You must resolve these issues before you can continue.","Това действие не може да се изпълни, защото имате продукти изискващи внимание. Трябва да разрешите тези случаи, преди да продължите."
 "Cannot Perform the Requested Action","Не може да се изпълни Заявеното действие"
 "%creator (for %customer)","%creator (за %customer)"
+"Items Quoted","Продукти с Квоти"
 "Subtotal (Incl. Tax)","Междинна сума (с ДДС)"
 "Subtotal (Excl. Tax)","Междинна сума (без ДДС)"
+"Add to Quote by SKU","Добави към квотата по SKU"
+"Add to Quote","Добавяне към Квотата"
+"Total Cost","Тотална Стойност"
+"Negotiated Price","Договорена Цена"
 "Shipping & Handling","Доставка & обработка"
+"Quote Subtotal (Incl. Tax)","Междинна Квота (вкл. Данък)"
+"Percentage Discount","Процентна отстъпка"
+"Amount Discount","Отстъпка Стойност"
+"Proposed Price","Предложена Цена"
+"Quote Subtotal","Междинна Квота"
+"My Quotes","Моите Квоти"
+"created quote","създадена квота"
+"closed quote","затворена квота"
+"updated quote","актуализирана квота"
+"Percentage Discount - %1%","Процентна Отстъпка - %1%"
+"Amount Discount - %1","Стойност Остъпка - %1"
+"Proposed Price - %1","Предложена цена - %1"
 Qty:,Кол-во:
+"Qty: ","Кол: "
+" - deleted from catalog"," - изтриване от катлога"
+(Removed),(Премахнат)
+deleted,изтрит
 Comments,Коментари
 Expires,"Изтича на"
 Created:,Създаден:
