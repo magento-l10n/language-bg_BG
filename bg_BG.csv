@@ -1480,7 +1480,7 @@ Invoiced,Фактурирани
 Shipped,Изпратен
 Refunded,Възстановен
 Canceled,Отказан
-"As low as","Толкова малко, колкото"
+"As low as","Цена от"
 "Regular Price","Редовна цена"
 "Buy %1 with %2 discount each","Купете %1 с %2 отстъпка всяко"
 "Go back to product details","Върнете се към детайлите за продукта"
@@ -3769,8 +3769,8 @@ save,запиши
 "Invalid cookie path","Невалиден път за бисквитка
 
 "
-"We use cookies to make your experience better.","Ние използваме бисквитки за да направят вашия опит по-добър."
-"To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Да се съобрази с новата директива за електронните комуникации, ние трябва да поиска за вашето съгласие да установите бисквитки."
+"We use cookies to make your experience better.","Ние използваме бисквитки за да може сайта да функционира пълноценно."
+"To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Спазвайки директивата за електронните комуникации изискваме Вашето съгласие за използването на бисквитки."
 "<a href=""%1"">Learn more</a>.","<a href=""%1""> Научете повече</a>."
 "Allow Cookies","Разрешаване на бисквитки"
 "Default Cookie Settings","Настройки на Бисквитките по подразбиране"
@@ -6769,6 +6769,9 @@ Seller,Продавач
 "Edit Company","Редакция на комания"
 "Sales Rep","Доклад продажби"
 "Add Product By SKU","Добавяне на продукти по кат. номер"
+"Cart Price","Цена в количката"
+"Shipping address","Адрес за доставка"
+"Shipping method","Начин на доставка"
 Created:,Създаден:
 "No shipping information available","Няма налична информация за доставка"
 " submitted by buyer"," изпратено от купувача"
@@ -6855,7 +6858,10 @@ Subscribers,Абонати
 "The newsletter template has been saved.","The Шаблон бюлетин has been saved."
 "This email address is already subscribed.","Този имейл адрес вече е записан."
 "You unsubscribed.","Отписахте се."
+Cancelled,Отказан
 "Choose Store View:","Изберете изглед на магазина:"
+"Please enter a new template name.","Моля въведете ново име на шаблон."
+" Copy"," Копирай"
 "Sign Up for Our Newsletter:","Абонирай се за нашия е-бюлетин:"
 "Enter your email address","Въведете Вашия имейл адрес"
 Subscribe,Абониране
@@ -6910,6 +6916,7 @@ Instructions,Инструкции
 "Cash On Delivery Payment","В брой, при доставка"
 "Zero Subtotal Checkout","Нулевa междинна сума при завършване на поръчката"
 "Automatically Invoice All Items","Автоматично фактуриране всички продукти"
+"Purchase order number is a required field.","Номера на поръчката е задължително поле."
 "Shipping Price","Цена за доставка"
 "Export CSV","Експорт CVS"
 "Store Pickup","Вземане от магазина"
@@ -8954,6 +8961,8 @@ Synonyms,Синоними
 "Limit the number of password reset request per hour. Use 0 to disable.","Ограничи броя на искане за нулиране на парола за час. Използвайте 0 за да деактивирате."
 "Min Time Between Password Reset Requests","Минимално време между заявки за възстановяване на парола"
 "Delay in minutes between password reset requests. Use 0 to disable.","Закъснение в минути между паролата и нулиране на заявка. Използвайте 0 за да деактивирате."
+"Your account is temporarily disabled. Please try again later.","Вашият акаунт е временно деактивиран. Моля, опитайте отново по-късно."
+"We received too many requests for password resets. Please wait and try again later or contact %1.","Получихме твърде много заявки за възстановяване на паролата. Моля, изчакайте и опитайте отново по-късно или се свържете с %1."
 "You can't send messages more than %1 times an hour.","Не можете да изпращате съобщения, повече от %1 пъти един час."
 "The link to a friend was sent.","Връзката към приятел е изпратена."
 "We found some problems with the data.","Открихме някои проблеми с данните."
@@ -8980,6 +8989,13 @@ Exception.,Изключения.
 "Max Recipients","Макс получатели"
 "Max Products Sent in 1 Hour","Макс продукти, изпратени през 1 час"
 "Limit Sending By","Лимитирай изпращането по"
+"Please provide Name for all of recipients.","Моля, въведете Име за всички получатели."
+"Please provide Email for all of recipients.","Моля, въведете електронна поща за всички получатели."
+"Please provide Name of sender.","Моля, въведете Име на подателя."
+"Please provide Email of sender.","Моля, въведете електронна поща на подателя."
+"Please provide Message.","Моля, предоставете съобщение."
+Pricing,Ценообразуване
+"Duplicate of %1","Копие на %1"
 Assign,Определи
 Assigned,Възложен
 "New Shipment for Order #%1","Нова пратка за поръчка № %1"
@@ -9402,6 +9418,7 @@ Logs,Логове
 "Choose Report Groups","Изберете отчет групи"
 "New Report","Нов отчет"
 "Report Groups","Доклад групи"
+"Unknown schema type supplied","Предоставен е неизвестен тип схема"
 "Admin is a required field in each row","Админ е задължително поле във всеки ред"
 "Update Product Preview Image","Актуализиране на изображение за визуализация на продукт"
 "Filtering by this attribute will update the product image on catalog page","Филтрирането по този атрибут ще актуализира изображението на продукта в страницата на каталога"
