@@ -6182,7 +6182,7 @@ Period,Период
 "Empty Rows","Празни редове"
 "Invalid date specified","Невалидни данни"
 "We can't find records for this period.","Не можем да намерим записи за този период."
-"Show Reviews","Показване на коментари"
+"Show Reviews","Показване на отзиви"
 "Products Report","Доклад за продукти"
 Purchases,Покупки
 "Low stock","Ограничено количество"
@@ -6191,7 +6191,7 @@ Purchases,Покупки
 "Show Report","Покажи отчет"
 "Refresh Statistics","Обнови статистика"
 "Customers Reviews","Отзиви от клиенти"
-"Reviews for %1","Коментари за %1"
+"Reviews for %1","Отзиви за %1"
 Detail,Детайл
 "Products Reviews","Продукти отзиви"
 "Products Bestsellers Report","Доклад за най-продавани продукти"
@@ -6522,7 +6522,7 @@ Registration,Регистрация
 "Invitation Conversion to Order Reward","Покана преход към поръчка за награда"
 "Review Submission","Предаването на анотации"
 "After approval by administrator.","След одобрение от администратор."
-"Rewarded Reviews Submission Quantity Limit","Възнаградени коментари подаване количествен лимит"
+"Rewarded Reviews Submission Quantity Limit","Ограничение за броя на изпратени отзиви за награждаване"
 "Subscribe Customers by Default","Абонирай клиенти по подразбиране"
 "Balance Update Email","Баланс актуализация имейл"
 "Reward Points Expiry Warning Email","Наградни точки изтичане предупреждение имейл"
@@ -6535,7 +6535,7 @@ Registration,Регистрация
 "Create an account on our site now and earn %1.","Създайте акаунт в нашия сайт сега и печелят %1."
 "Subscribe to our newsletter now and earn %1.","Абонирайте се за нашия бюлетин сега и спечелете %1."
 "Submit a review now and earn %1 after the review is approved.","Дайте своята оценка сега и спечелете %1 след като оценката е одобрена."
-"You can reward up to %1 new reviews(s).","Можете да възнагради до %1 нови коментари (s)."
+"You can reward up to %1 new reviews(s).","Можете наградите максимум %1 нови отзива."
 Return,Връщане
 Returns,Рекламации
 "Create Returns","Създай рекламации"
