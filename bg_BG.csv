@@ -591,6 +591,7 @@ System,Системи
 "You saved the store.","Вие записахте магазина."
 "Something went wrong while saving. Please review the error log.","Нещо се обърка при записването. Моля прегледайте лога с грешки."
 "Authentication storage is incorrect.","Некоректно хранилище за удостоверяване."
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Данните за вход са грешни или профилът Ви е временно ограничен. Моля, опитайте по-късно."
 "Last 24 Hours","Последни 24 часа"
 "Last 7 Days","Последни 7 дни"
 "Current Month","Текущ месец"
