@@ -12,6 +12,7 @@ None,Не
 "This item needs to be assigned to a store view. Assign item and try again.","Този елемент трябва да бъде асоцииран към даден магазин. Насочете елемент и опитайте отново."
 "More permissions are needed to save this item.","Повече права са необходими за да запазите този елемент."
 "More permissions are needed to delete this item.","Повече права са необходими за да изтриете този елемент."
+"Not allowed to edit the category's design attributes","Редактирането на атрибутите за дизайна на категория не е разрешено"
 "At least one website or store group needs to be selected. Select and try again.","Необходимо е да бъде избран поне един уебсайт или група магазини. Изберете и опитайте отново."
 "More permissions are needed to set All Scopes to a Role.","Необходими са повече права, за да зададете правата на потребителските роли."
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","Идентификационният номер ""%1"" на уеб сайта е неправилен. Проверете идентификационния номер на уеб сайта и опитайте отново."
@@ -508,6 +509,7 @@ Stores,Магазини
 "Create Store View","Създай изглед на магазин"
 Home,"Основна страница"
 "Are you sure you want to do this?","Сигурни ли сте, че искате да направите това?"
+label,етикет
 "Add New Image","Добави ново изображение"
 "Export block for grid %1 is not defined","Не е дефиниран Експортен блок за мрежа %1"
 "Reset Filter","Нулирай филтър"
@@ -593,16 +595,21 @@ System,Системи
 "Something went wrong while saving. Please review the error log.","Нещо се обърка при записването. Моля прегледайте лога с грешки."
 "Authentication storage is incorrect.","Некоректно хранилище за удостоверяване."
 "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Данните за вход са грешни или профилът Ви е временно ограничен. Моля, опитайте по-късно."
+Today,Днес
 "Last 24 Hours","Последни 24 часа"
 "Last 7 Days","Последни 7 дни"
 "Current Month","Текущ месец"
 YTD,"От началото на годината"
 Order,Поръчка
 "Order #%1","Поръчка #%1"
+"Save &amp; Continue","Запази и продължи"
+"Save &amp; Close","Запази и затвори"
+"Save &amp; New","Запази и добави нов"
 "Sorry, you need permissions to view this content.","За съжаление ви трябват права за достъп, за да разгледате това съдържание."
 "Next steps","Следващи стъпки"
 "If you think this is an error, try signing out and signing in again.","Ако смятате, че това е грешка, опитайте да излезете и влезете в системата."
 "Contact a system administrator or store owner to gain permissions.","Свържете се със системен администратор или собсвтвеника на магазина, за да поискате права за достъп."
+"Return to ","Върни се към "
 "previous page","предишна страница"
 "Welcome, please sign in","Добре дошли, моля влезте"
 Username,"Потребителско име"
@@ -638,7 +645,9 @@ Minute,Минута
 "JavaScript may be disabled in your browser.","JavaScript може би е изключен в браузъра Ви."
 "To use this website you must first enable JavaScript in your browser.","За да използвате този сайт, първо трябва да активирате JavaScript във Въшия браузър."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Това е демонстрационен магазин. Можете да го разгледате и да направите поръчки, но те няма да бъдат изпълнявани."
+"Privacy Policy","Политика за поверителност"
 "Report an Issue","Съобщете за проблем"
+Scope:,Обхват:
 "Stores Configuration","Магазини конфигурация"
 "Additional Cache Management","Допълнително управление на кеширането"
 "Flush Catalog Images Cache","Изчисти Кеш на Изображения"
@@ -670,8 +679,14 @@ selected,избрани
 "The information in this tab has been changed.","Информацията в този таб ще бъде променена."
 Loading...,Зареждане...
 "User Agent Rules","Правила за User Agent"
+Examples,Примери
+"Previous Page","Предишна страница"
+"Next Page","Следваща страница"
+"Use Default Value","Използвай стойността по подразбиране"
 "We could not detect a size.","Не успяхме да открием размер."
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Потвърдете превключване на обхвата. Всички данни, които не са записани ще бъдат загубени."
+"Warning message","Предупредително съобщение"
+"This operation can take a long time","Тази операция може да отнеме повече време"
 "Allow everything","Разреши всичко"
 "Magento Admin","Magento администрация"
 "Global Search","Глобално търсене"
@@ -682,6 +697,7 @@ Content,Съдържание
 Elements,Елементи
 Design,Дизайн
 Schedule,График
+"Content translation","Превод на съдържание"
 Settings,Настройки
 Attributes,Атрибути
 "Other Settings","Други настройки"
@@ -752,6 +768,7 @@ Host,Хост
 "Set Return-Path","Задаване на Return-Path"
 "Return-Path Email","Обратен имейл"
 "Enable Frontend Resize","Разрешаване на преоразмеряване"
+"Maximum Height","Максимална височина"
 Admin,Админ
 "Admin User Emails","Email адрес на администратора"
 "Forgot Password Email Template","Имейл шаблон за ""Забравена парола"""
@@ -863,6 +880,7 @@ Database,"База данни"
 "The backup file handler was unspecified.","Неоределен файлов ресурс за архивиране."
 "Something went wrong while writing to the backup file ""%1"".","Нещо не е наред при запис на архивен файл ""%1""."
 "We can't save the Cron expression.","Не може да запише Cron израз."
+"Backup functionality is disabled","Функционалността за архивиране е деактивирана"
 "You will lose any data created since the backup was made, including admin users, customers and orders.","You will lose any data created since the backup was made, including admin users, Клиенти and Поръчки."
 "Are you sure you want to continue?","Сигурни ли сте, че желаете продължение?"
 "This may take a few moments.","Това може да продъжи известно време."
@@ -885,7 +903,10 @@ Exclude,Изключи
 "Magento root directory","Основна директория на Magento"
 "Create Backup","Създаване на резервно копие"
 Rollback,"Връщане към предишна версия"
+"Backup Settings","Настройки за архивиране"
+"Enable Backup","Включване на архивирането"
 "Enable Scheduled Backup","Разреши планирано архивиране"
+"Scheduled Backup Type","Тип планирано архивиране"
 Frequency,Честота
 "Maintenance Mode","Режим на профилактика"
 "Are you sure you want to delete the selected backup(s)?","Сигурни ли сте, че искате да изтриете избраните архиви?"
@@ -898,6 +919,8 @@ Download,Смъкни
 "Delete Dynamic Block","Изтриване на динамичен блок"
 "Save and Continue Edit","Запази и продължи редактиране"
 "New Dynamic Block","Нов динамичен блок"
+"Are you sure you want to do this?","Наистина ли искате да направите това?"
+Save,Запази
 "Default Content","Съдържание по подразбиране"
 "No Default Content","Няма съдържание по подразбиране"
 "Dynamic Block Default Content for All Store Views","Съдържание на динамичен блок по подразбиране за всички изгледи на магазини"
@@ -933,8 +956,12 @@ Position,Позиция
 "This dynamic block does not exist.","Този динамичен блок не съществува."
 "You saved the dynamic block.","Запазихте динамичният блок."
 "We cannot save the dynamic block.","Ние не можем да запишем динамичният блок."
+"Invalid Request","Невалидна заявка"
 "Please enter a name.","Моля въведете име."
+"Content includes restricted HTML elements. %1","В съдържанието са засечени забранени HTML елементи. %1"
+"Make sure that dynamic blocks rotator does not reference the dynamic block itself.","Уверете се, че динамичното ротиране на блокове не сочи към себе си."
 "-- None --",--Никой--
+"Invalid content","Невалидно съдържание"
 "Content Area","Кънтент поле"
 Footer,Футър
 Header,Хедър
@@ -954,7 +981,16 @@ Header,Хедър
 "One at the time, Series","По едно и също време, серии"
 "One at the time, Shuffle","По едно и също време, разбъркани"
 "Specify Dynamic Blocks","Задайте динамични блокове"
+"Dynamic Block Template","Шаблон за динамичен блок"
 "Dynamic Block Inline Template","Динамичен блок инлайн шаблон"
+"Status Label","Етикет за състоянието"
+"General Information","Обща информация"
+"Enable Dynamic Block","Разрешаване на динамичен блок"
+"Cart price rules allows you to setup promotions for items that are in the shopping cart.","Правилата за цени в кошница позволяват да настроите промоции за продукти, които са в количката."
+"Add Cart Price Rules","Добави правила за цени в кошницата"
+"Related Catalog Price Rule","Свързани правила за цени в каталога"
+"Catalog price rules allows you to setup promotions for an items in catalog.","Правилата за цени в каталога позволяват да настроите промоции за артикули в каталога."
+"Add Selected","Добави избраните"
 Visibility,Видимост
 "All Segments","Всички сегменти"
 "Customer Segment","Потребителски сегмент"
@@ -1324,7 +1360,6 @@ to,до
 "[STORE VIEW]","[Изглед Магазин]"
 "WYSIWYG Editor","WYSIWYG редактор"
 "Add Product","Добави продукт"
-label,етикет
 "Product Attributes","Продуктови атрибути"
 "Add New Attribute","Добави атрибут"
 "Save Attribute","Запиши атрибут"
@@ -1682,7 +1717,6 @@ message,съобщение
 name,име
 "Copy Data from","Копирай дата от"
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","Ако съществуват родителси категории, използвайте нея. Може да презаредите категорията по всяко време <a href=""%1"" target=""_blank"">Продукти &gt; Категии</a>."
-"This operation can take a long time","Тази операция може да отнеме повече време"
 "Collapse All","Разпадни всичко"
 "Expand All","Разшири всичко"
 "Please confirm site switching. All data that hasn't been saved will be lost.","Потвърдете превключване на обхвата. Всички данни, които не са записани ще бъдат загубени."
@@ -1779,7 +1813,6 @@ Show,Покажи
 "View as","Виж като"
 "More Information","Повече информация"
 "Maximum %1 characters","Максимално %1 символи"
-"Warning message","Предупредително съобщение"
 "We don't recognize or support this file extension type.","Не разпознаваме или не поддържаме този тип файлово разширение."
 "Configure Product","Конфигуриране на продукт"
 OK,ОК
@@ -2457,7 +2490,6 @@ px.,пкс.
 Block,Блок
 "Select Block...","Изберете блок..."
 "CMS Static Block Default Template","CMS шаблон на блок по подразбиране"
-"General Information","Обща информация"
 "Enable Block","Разрешаване на блок"
 "Block Title","Заглавие на блок"
 "Are you sure you want to delete selected items?","Сигурни ли сте, че искате да изтриете всички избрани артикули?"
@@ -8107,7 +8139,6 @@ Phrase,Фраза
 testMessage,текстовоСъобщение
 "We found no files.","Не намерихме файлове."
 "Browse Files","Преглед файлове"
-Scope:,Обхват:
 "Help Us Keep Magento Healthy","Помогнете ни да запазим Magento здравословни"
 "Report All Bugs","Докладвай всички бъгове"
 "Toggle Nav","Превключване Nav"
@@ -8159,7 +8190,9 @@ Translations,Преводи
 "Add New %1","Добавяне на нов %1"
 "New %1","Нов %1"
 "Unsupported bookmark action.","Неподдържано действие на маркер."
+"Clear all","Изчисти всички"
 Filters,Филтри
+"Apply Filters","Приложи филтрите"
 Selected,Избран
 "Select All on This Page","Изберете всички на тази страница"
 "Deselect All on This Page","Премахнете всички на тази страница"
