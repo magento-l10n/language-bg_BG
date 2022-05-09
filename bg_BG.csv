@@ -109,10 +109,19 @@ Configure,"Конфигуриране на"
 "You must buy at least %1 of these per purchase.","Трябва да купите поне %1 от този продукт в поръчка."
 "Specify the product's options.","Задайте опциите на продукта."
 "Alert me when this item is available.","Уведоми ме, когато този продукт е наличен."
+"This customer couldn't be found. Verify the customer and try again.","Този клиент не може да бъде намерен. Проверете клиента и опитайте отново."
 "Shopping cart management is disabled for this customer.","Управлението на кошницата за пазаруване не е разрешена за този клиент."
+"This store couldn't be found. Verify the store and try again.","Този магазин не може да бъде намерен. Проверете магазина и опитайте отново."
 Customers,Клиенти
 "Shopping Cart",Количка
+"An error occurred. For details, see the error log.","Възникна грешка. За подробности вижте регистъра на грешки."
 "You do not have access to this.","Вие нямате достъп до това."
+"Orders can only be completed in an active store. Verify the store and try again.","Поръчки могат да се завършват само в активен магазин. Проверете магазина и опитайте отново."
+"The ordered item needs to be loaded. Load the item and try again.","Поръчаният артикул трябва да бъде зареден. Заредeте артикула и опитайте отново."
+"The quote item ID needs to be received. Set the ID and try again.","Цитираният артикул с ИД трябва да бъде получен. Задайте ИД и опитайте отново."
+"The quote item needs to be loaded. Load the item and try again.","Цитираният артикул трябва да бъде зареден. Заредeте артикула и опитайте отново."
+"The wish list item ID needs to be received. Set the ID and try again.","ИД на елемент от списъка с желани трябва да бъде получен. Задайте ИД и опитайте отново."
+"The wish list item needs to be loaded. Load the item and try again.","Елемента от списъка с желани трябва да бъде зареден. Заредете елемента и опитайте отново."
 "An error has occurred. See error log for details.","Възникна грешка. Вижте лога с грешки за подробности."
 "You cannot configure a product.","Не можете да конфигурирате този продукт."
 "You removed the items.","Вие премахнахте тези артикули."
@@ -143,6 +152,7 @@ Customers,Клиенти
 "Yes, for Specified Customer Groups","Да, за определени клиентски групи"
 "Yes, for Everyone","Да, за всеки"
 No,Не
+"The file is corrupt and can't be used.","Файлът е повреден и не може да бъде използван."
 "Please upload the file in .csv format.","Моля, качете файла в .csv формат."
 "%1 item(s) need your attention.","%1 елемент(и) се нуждаят от Вашето внимание."
 "Apply Coupon Code","Приложи купон"
@@ -231,10 +241,17 @@ Yes,Да
 "Error while checking if topic is synchronous","Грешка при проверка, ако темата е синхронна"
 "Subscription status","Статут на абонамента"
 "Sorry, there has been an error processing your request. Please try again later.","За съжаление, възникна грешка при обработката на заявката Ви. Моля, опитайте отново по-късно."
+"The time value is using an unsupported format. Enter a supported format and try again.","Стойността за времето е в неподдържан формат. Моля въведете поддържан формат и опитайте отново."
 "Cron settings can't be saved","Cron настройките не могат да бъдат записани"
 "There was an error save new configuration value.","Възникна грешка при записване нова конфигурационна стойност."
 "Please select an industry.","Моля изберете отрасъл."
 "--Please Select--","--Моля, изберете--"
+"Command ""%1"" was not found.","Командата ""%1"" не беше намерена."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Данните са невалидни. Въведете данните като текст или данни, които може да се преобразуват в текст и опитайте отново."
+"The data is invalid. Enter the data as a string and try again.","Данните са невалидни. Въведете данните като текст и опитайте отново."
+"The data is invalid. Use a valid cipher method and try again.","Данните са невалидни. Използвайте валиден криптираш метод и опитайте отново."
+"Enter the encryption key and try again.","Въведете ключа за криптиране и опитайте отново."
+"The ""%1"" source doesn't exist.","""%1"" източникът не съществува."
 "These arguments can't be empty ""%1""","Тези аргументи не могат да бъдат празни ""%1"""
 "Cannot find predefined integration user!","Не може да намери предефиниран потребител за интеграция!"
 "File is not ready yet.","Файлът все още не е готов."
@@ -253,11 +270,21 @@ API,"Приложен програмен интерфейс"
 Configuration,Конфигурация
 "Business Intelligence","Бизнес анализи"
 "BI Essentials","BI Основи"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","Тази услуга предага динамичен пакет от отчети с богато съдържание за вашия бизнес. Вашите отчети могат да се разглеждат на сигурно място в персонализиран контролен панел, вин от Административния панел като кликенте върху връзката ""Към Разширени отчети"". </br> За повече информация, вижте <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms""> термини и усовия</a>."
 "Advanced Reporting Service","Услуга за Подробен анализ"
 "Time of day to send data","Час за изпращане на данни"
+"Industry Data","Данни на индустрията"
 Industry,Индустрия
 "In order to personalize your Advanced Reporting experience, please select your industry.","За да персонализирате вашия опит в Подробната отчетност, моля изберете вашата индустрия."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Получете повече инфомация от Magento бизнес анализи</strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","Magento Бизнес анализи ви продеставя лесен и ясен път към 
+                    управление на данните ви.</br> Научете повече за <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Основи и BI Pro</a> линиите."
 "Auto Parts","Авто части"
 "Baby/Children’s Apparel, Gear and Toys","Бебешки/детски дрехи, приспособления и играчки"
 "Beauty and Cosmetics","Красота и козметика"
@@ -276,12 +303,18 @@ Industry,Индустрия
 "Pet Goods","Стоки за Домашни любимци"
 "Pharma and Medical Devices","Фармацевтични и медицински изделия"
 "Technology B2B","Технология B2B"
+Other,Други
 Back,Назад
 Done,Готово
 Retry,"Опитай отново"
 "'Action Details - #' .","""Данни за действие - #""."
 "%1 item(s) have been scheduled for update.""","%1 елемент(и) са планирани за обновяване."""
 "Bulk Actions Log","Регистър на Пакетни действия"
+"Bulk uuid %bulkUuid not exist","Не съществува идентификатор %bulkUuid"
+"Topic %1","Тема %1"
+"Something went wrong while processing the request.","Нещо се обърка докато обработвахме заявката."
+"Error processing %key element of input data","Грешка при обработката на %key елемент от входящите данни"
+"Sorry, something went wrong during product prices update. Please see log for details.","За съжаление нещо се обърка по време на актуализация на цени на продукти. Моля, вижте лог файла за подробности."
 "%1 item(s) are currently being updated.","%1 елемент(и) се актуализират в момента."
 "Task ""%1"": ","Задача ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 елемент(и) са планирани за обновяване."
@@ -296,7 +329,9 @@ Dismiss,Отхвърляне
 ", %1 failed to update",", %1 не успя да се актуализира"
 "Something went wrong.","Възникна грешка."
 "Action Log","Регистър на действията"
+Report,Доклад
 "Bulk Actions","Пакетни действия"
+"Action Logs","Регистър на действията"
 "Days Saved in Log","Дни, записани в регистрационния файл"
 "Description of Operation","Описание на операцията"
 Summary,Обобщение
@@ -311,6 +346,7 @@ Error,Грешка
 "Dismiss All Completed Tasks","Отхвърли всички завършени задачи"
 "Action Details - #","Детайли за действието - #"
 "Number of Records Affected","Брой на засегнатите записи"
+"The role wasn't found for the user. Verify the role and try again.","Ролята не е намерена за този потребител. Проверете ролята и опитайте отново."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Нещо се обърка при съставянето на списък на разрешените ресурси. Можете да намерите повече информация в регистрационния файл на изключения."
 "You created the order.","Вие създадохте поръчка."
 "Order saving error: %1","Грешка при запазване на поръчката: %1"
@@ -403,10 +439,26 @@ Environment,Среда
 options,опции
 "Select all","Избери всички"
 "Deselect all","Откажи всички"
+Selected,Избрани
+"We couldn't find any records.","Не открихме никакви записи."
+" Item(s)"," Запис(и)"
+"Items ","Записи "
+" to "," до "
+" of "," от "
+" total"," общо"
+Page,Страница
+Previous,Назад
+"You're currently reading page","В момента четете страница"
+Next,Напред
+Show,Покажи
+"per page","на страница"
 "%s of %s selected","%s от %s избрани"
+"Search by keyword","Търсене по ключова дума"
+"This is a required field.","Това поле е задължително."
 "B2B Features","B2B функции"
 "Invalid Form Key. Please refresh the page.","Невалиден ключ. Моля обновете страницата."
 "You entered an invalid Secret Key. Please refresh the page.","Въвели сте невалиден таен ключ. Моля, презаредете страницата."
+"Invalid security or form key. Please refresh the page.","Невалиден ключ за сигурност или форма. Моля презаредете страницата."
 "Cache Storage Management","Управление на съхраняването на кеша"
 "Flush Magento Cache","Изчисти кеша на Magento"
 "The cache storage may contain additional data. Are you sure that you want to flush it?","Съхранение на кеша може да съдържа допълнителни данни. Сте сигурни, че искате флъш?"
@@ -522,16 +574,17 @@ To,До
 "[ deleted ]",[изтрит]
 "Select All","Маркиране на всичко"
 " [deleted]",[заличава]
-"We couldn't find any records.","Не открихме никакви записи."
 "Add New","Добави нов"
 "Invalid export type supplied for grid export block","Към Мрежовия експортен блок е подаден невалиден Тип на експорт"
 Export,Експорт
 "Please correct the column format and try again.","Моля коригирайте формата на колоните и опитайте отново."
+"An item needs to be selected. Select and try again.","Трябва да бъде избран продукт. Изберете и опитайте отново."
 Submit,Изпрати
 "Unknown block type","Неизвестен блоков тип"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Моля коригирайте раздела конфигурация и опитайте отново. ИД на раздела трябва да е не празен"
 "Please correct the tab configuration and try again.","Моля коригирайте конфигурацията на раздела и опитайте отново."
 "You have logged out.","Вие излязохте."
+"These cache type(s) don't exist: %1","Типовете кеш: (%1) не съществуват"
 "The image cache was cleaned.","Изчистен е кеша на изображението."
 "An error occurred while clearing the image cache.","Възникна грешка при изчистването на кеша на изображението."
 "The JavaScript/CSS cache has been cleaned.","Кеша на JavaScript и CSS беше изтрит."
@@ -587,6 +640,7 @@ System,Системи
 "Before modifying the store view code please make sure it is not used in index.php.","Преди да го променяте, Моля уверете се, че кодът на Изгледа на магазина не се използва в index.php."
 "New ","Нов "
 "All Stores","Всички магазини"
+"Please enable your Store View before using this Web Site as Default","Моля позволете ""Магазинен преглед"" преди да използвате сайта по подразбиране"
 "You saved the website.","Вие записахте уебсайта."
 "The default store cannot be disabled","Магазин по подразбиране не може да бъде спрян"
 "You saved the store view.","Вие записахте изгледа на магазина."
@@ -595,6 +649,9 @@ System,Системи
 "Something went wrong while saving. Please review the error log.","Нещо се обърка при записването. Моля прегледайте лога с грешки."
 "Authentication storage is incorrect.","Некоректно хранилище за удостоверяване."
 "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Данните за вход са грешни или профилът Ви е временно ограничен. Моля, опитайте по-късно."
+"An authentication error occurred. Verify and try again.","Възникна грешка при идентификация. Проверете и опитайте отново."
+"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","Администраторската сесия е изтекла. Задайте 31536000 секунди (една година) или по-кратък период и опитайте отново."
+"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","Администраторската сесия е изтекла. Задайте 60 секунди или по-голям период и опитайте отново."
 Today,Днес
 "Last 24 Hours","Последни 24 часа"
 "Last 7 Days","Последни 7 дни"
@@ -602,6 +659,7 @@ Today,Днес
 YTD,"От началото на годината"
 Order,Поръчка
 "Order #%1","Поръчка #%1"
+"URL key ""%1"" matches a reserved endpoint name (%2). Use another URL key.","Наименованието ""%1"" в адреса съвпада с резервирано системно такова (%2). Въведете друго."
 "Save &amp; Continue","Запази и продължи"
 "Save &amp; Close","Запази и затвори"
 "Save &amp; New","Запази и добави нов"
@@ -636,8 +694,6 @@ password,парола
 "Sign Out",Изход
 "About the calendar","Относно календара"
 "Go Today","За днес"
-Previous,Назад
-Next,Напред
 WK,Седмица
 Time,Време
 Hour,Час
@@ -665,7 +721,6 @@ Thumbnail,Миниатюра
 "Additional Settings","Допълнителни настройки"
 "records found","намерени записи"
 selected,избрани
-"per page","на страница"
 "Previous page","Предишна страница"
 "of %1","от %1"
 "Next page","Следваща страница"
@@ -679,6 +734,8 @@ selected,избрани
 "The information in this tab has been changed.","Информацията в този таб ще бъде променена."
 Loading...,Зареждане...
 "User Agent Rules","Правила за User Agent"
+"User agent exceptions override product and CMS pages rules.","Изключения от хедъра ""User-Agent"" са с по-висок приоритет на правилата в Продукт/CMS страница."
+"Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","Ключовите думи за търсене могат да бъдат нормални низове или регулярни изрази (базирани на PCRE). Съвпадението се извъшрва в поредността на въвеждане."
 Examples,Примери
 "Previous Page","Предишна страница"
 "Next Page","Следваща страница"
@@ -705,6 +762,13 @@ Attributes,Атрибути
 "Connect Manager","Мениджър свързване"
 "Package Extensions","Пакет разширения"
 Tools,Инструменти
+"Clean Cache Actions","Изчисти кеш действия"
+"Cache Types Management","Управление на съхраняването на кеша"
+"Toggle Cache Type","Превключване тип на кеша"
+"Refresh Cache Type","Обнови тип кеш"
+"Catalog Images Cache","Каталог изображения кеш"
+"Flush Js/Css","Изчисти Js/Css"
+"Flush Static Files","Изчистване на кеша на статичните файлове"
 Currency,Валута
 Communications,Комуникации
 Services,Услуги
@@ -719,8 +783,16 @@ Advanced,Разширени
 "Sales Representative","Търговски представител"
 "Customer Support","Поддръжка на клиенти"
 Developer,Разработчик
+"Enable Template Path Hints for Storefront","Разрешаване на подсказки за магазина"
+"Enable Hints for Storefront with URL Parameter","Разрешаване на подсказки за магазина с URL параметър"
+"Use URL parameter to enable template path hints for Storefront","Използване на URL параметър за включване и показване на подсказки за шаблони в магазина"
+"Parameter Value","Стойност на параметъра"
+"Add the following parameter to the URL to show template hints ?templatehints=[parameter_value]","Добавяне на следния параметър към адреса за показване на подсказките за шаблони: ?templatehints=[parameter_value]"
+"Enable Template Path Hints for Admin","Разрешаване на съвети за Пътни Шаблони за администратора"
+"Add Block Class Type to Hints","Добави блок клас тип на съвети"
 "Template Settings","Настройки на темата"
 "Allow Symlinks","Позволи Symlinks"
+"<strong class=""colorRed"">Warning!</strong> Enabling this feature is not recommended on production environments because it represents a potential security risk.","<strong class=""colorRed"">Предупреждение!</strong> Не се препоръчва включването на тази конфигурация в сайтове в production среда."
 "Minify Html","Минифицирай Html"
 "Minification is not applied in developer mode.","Minification не се прилага в режим на разработчик."
 "Translate Inline","Превод на място"
@@ -736,6 +808,7 @@ Developer,Разработчик
 "Minify CSS Files","Смали CSS файлове"
 "Image Processing Settings","Настройки за обработка на изображения"
 "Image Adapter","Адаптер за изображения"
+"When the adapter was changed, please flush Catalog Images Cache.","Когато адаптерът е променен, моля изчистете Кеша на Католога за изображения."
 "Static Files Settings","Настройки на статични файлове"
 "Sign Static Files","Подпишете статични файлове"
 "Country Options","Опции за държави"
@@ -764,11 +837,18 @@ City,Град
 "Mail Sending Settings","Настройки за изпращане на поща"
 "Disable Email Communications","Забрани изпращането на имейл съобщения"
 Host,Хост
+"For Windows server only.","Само за Windows сървъри."
 "Port (25)","Порт (25)"
+"Please enter at least 0 and at most 65535 (For Windows server only).","Моля въведете поне 0 и най-много 65535 (Само за windows сървъри)."
 "Set Return-Path","Задаване на Return-Path"
 "Return-Path Email","Обратен имейл"
+"Images Upload Configuration","Конфигуриране на Качването на снимки"
 "Enable Frontend Resize","Разрешаване на преоразмеряване"
+"Resize performed via javascript before file upload.","Оразмеряването беше извършено чрез javascript преди качването на файловете към сървъра."
+"Maximum Width","Максимална Ширина"
+"Maximum allowed width for uploaded image.","Максимално разрешена ширина за качени изображения."
 "Maximum Height","Максимална височина"
+"Maximum allowed height for uploaded image.","Максимално разрешена височина за качени изображения."
 Admin,Админ
 "Admin User Emails","Email адрес на администратора"
 "Forgot Password Email Template","Имейл шаблон за ""Забравена парола"""
@@ -793,27 +873,37 @@ Security,Сигурност
 Web,Уеб
 "Url Options","Опции за Url"
 "Add Store Code to Urls","Добави код на магазин към Url адреси"
+"<strong class=""colorRed"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong class=""colorRed"">Внимание!</strong> Когато използвате Код на магазин в URL, в някои случаи това може да не работи коректно, ако URL без Код на магазин е зададен в услугите на трети страни (примерно PayPal и др.)."
 "Auto-redirect to Base URL","Авто-пренасочване към базовия URL"
+"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","Тоест да се пренасочи от http://example.com/store/ към http://www.example.com/store/"
 "Search Engine Optimization","Оптимизация за търсачки"
 "Use Web Server Rewrites","Използвай Web сървър Rewrites"
 "Base URLs","Основа на URL адреси"
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. http://example.com/magento/","Никое от полетата позволяват напълно квалифицирани URL адреси, които завършват с ""/"" (наклонена черта) например http://example.com/magento/"
 "Base URL","Основен URL"
 "Specify URL or {{base_url}} placeholder.","Задайте URL адрес или {{base_url}} контейнер."
 "Base Link URL","Базова връзка URL"
+"May start with {{unsecure_base_url}} placeholder.","Може да започне с {{unsecure_base_url}} контейнер."
 "Base URL for Static View Files","Основен URL за статичен изглед на файлове"
 "May be empty or start with {{unsecure_base_url}} placeholder.","Може да бъде празно или започнете с {{unsecure_base_url}} контейнер."
 "Base URL for User Media Files","Основен URL за потребителски мултимедийни файлове"
 "Base URLs (Secure)","Основен URL адреси (защитен)"
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. https://example.com/magento/","Никое от полетата позволяват напълно квалифицирани URL адреси, които завършват с ""/"" (наклонена черта) например https://example.com/magento/"
 "Secure Base URL","Сигурен основен URL"
 "Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Задайте URL адрес или {{base_url}}, или {{unsecure_base_url}} контейнер."
 "Secure Base Link URL","Сигурна базова връзка URL"
+"May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.","Може да започне с {{secure_base_url}} или {{unsecure_base_url}} контейнер."
 "Secure Base URL for Static View Files","Сигурен базов URL за статичен изглед на файлове"
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Може да бъде празно или започнете с {{secure_base_url}}, или {{unsecure_base_url}} контейнер."
 "Secure Base URL for User Media Files","Сигурна основа URL за потребителя мултимедийни файлове"
 "Use Secure URLs on Storefront","Използвайте защитен URL за магазина"
+"Enter https protocol to use Secure URLs on Storefront.","Задайте https протокол за да използвате Защитени URLs адреси в магазина."
 "Use Secure URLs in Admin","Използвайте защитен URL адреси в администрация"
+"Enter https protocol to use Secure URLs in Admin.","Задайте https протокол за да използвате Защитени URLs адреси в Админ-а."
 "Enable HTTP Strict Transport Security (HSTS)","Разреши HTTP Strict Transport Security (HSTS)"
+"See <a href=""https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html"" target=""_blank"">HTTP Strict Transport Security</a> page for details.","Разгледайте стрниацата <a href=""https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html"" target=""_blank"">HTTP Strict Transport Security</a> за детайли."
 "Upgrade Insecure Requests","Надгради несигурните заявки"
+"See <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">Upgrade Insecure Requests</a> page for details.","Разгледайте страницата <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">Upgrade Insecure Requests</a> за детайли."
 "Offloader header","Заглавие на премахващата процедура"
 "Default Pages","Страници по подразбиране"
 "Default Web URL","Web URL по подразбиране"
@@ -1244,7 +1334,7 @@ Unrecognized,Неразпознат
 Sale,Продажба
 Credit,Кредит
 "Vault enabled","Каса разрешена"
-"Percent Discount","Процент отстъпка"
+"Percent Discount","Процентна отстъпка"
 "-- Select --","-- Избери --"
 Dynamic,Динамично
 Fixed,Фиксиран
@@ -1255,9 +1345,19 @@ Fixed,Фиксиран
 "What are you looking for?","Какво търсите?"
 "Use Default Value","Използвайте стойност по подразбиране"
 "There is no defined renderer for ""%1"" option type.","Няма дефиниран рендерер за тип опция ""%1""."
+"This is implemented for bundle products only.","Това е реализирано само за групирани продукти."
+"The product with the ""%1"" SKU isn't a bundle product.","Продуктът с код ""%1"" SKU не е групиран продукт."
+"The bundle product can't contain another composite product.","Групираните продукти не могат да съдържат други групирани такива."
+"The product link needs an ID field entered. Enter and try again.","Връзката към продукт изисква поле ID да бъде попълнено. Попълнете и опитайте пак."
+"The product link with the ""%1"" ID field wasn't found. Verify the ID and try again.","Връзката към продукт с ID ""%1"" поле не съществува. Провереде ID и опитайте пак."
 "Could not save child: ""%1""","Не може да се запише ""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Продукт с определен кат. номер: ""%1"" не съдържа опция: ""%2"""
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Подпродукт с код: ""%1"" е вече добавен към продукт: ""%2"""
+"The bundle product doesn't exist. Review your request and try again.","Групираният продукт не съществува. Проверете заявката и опитайте отново."
+"The option that was requested doesn't exist. Verify the entity and try again.","Опцията която заявихте не съществува. Проверете изделието и опитайте пак."
+"The option couldn't be saved.","Опцията не може да бъде записана."
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" е задължителен. Въведете и опитайте пак."
+"The option with ""%1"" ID can't be deleted.","Опцита с ID ""%1"" не може да бъде изтрита."
 "Price Range","Ценови диапазон"
 "As Low as",От
 Together,Заедно
@@ -1266,6 +1366,7 @@ Separately,Отделно
 "The options you selected are not available.","Опциите, които избахте не са налице."
 "The required options you selected are not available.","Необходимите опции, които сте избрали не са налични."
 "Please select all required options.","Моля изберете всички задължителни опции."
+"Option type (%types) should have only one element.","Типът на опцията (%types) трябва да има само един елемент."
 "We can't add this item to your shopping cart right now.","Не може да добавите този елемент към вашата пазарска количка точно сега."
 N/A,"Не е достъпно"
 Percent,Процент
@@ -1319,8 +1420,10 @@ Message:,Съобщение:
 "Qty Shipped","Експедирано количество"
 "Add Products to New Option","Добави продукти към нова опция"
 "Add Products to Option ""%1""","Добави продукти към опция ""%1"""
+"Special Price","Специална цена"
 """option_id"" and ""parent_id"" values should be specified","""option_id"" и ""parent_id"" стойностите трябва да бъдат посочени"
 """sku"" value should be specified","""sku"" стойност трябва да е зададена"
+"Unique constraint violation found","Намерено нарушение"
 Always,Винаги
 "After number of attempts to login","След брой неуспешни опити за логване"
 "Provided form does not exist","Този формуляр не съществува"
@@ -1806,7 +1909,6 @@ Prev,Предишен
 "Items %1-%2 of %3","Артикули %1-%2 от %3"
 "%1 Item","%1 Артикул"
 "%1 Items","%1 Артикули"
-Show,Покажи
 "Sort By","Сортирай по"
 "Set Ascending Direction","Настрой възходяща посока"
 "Set Descending Direction","Настрой низходяща посока"
@@ -2057,6 +2159,7 @@ End,Край
 "File directory '%1' is not readable.","Директория за файла ""%1"" не се чете."
 "File directory '%1' is not writable.","Директория за файла '%1' не е записваем."
 "Value for 'price' sub attribute in 'store' attribute contains incorrect value","Стойността за ""цена"" sub атрибут в ""Магазин"" атрибут съдържа неправилна стойност"
+"Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: %1","Стойността за 'type' под-атрибут в 'custom_options' атрибута съдържа некоректна стойност, приемливи стойности са: %1"
 "Please enter a value for title.","Моля въведете стойност за заглавие."
 "Value for 'price' sub attribute in 'custom_options' attribute contains incorrect value","Стойността за ""цена"" sub атрибут в ""custom_options"" атрибут съдържа неправилна стойност"
 "Value for 'maximum characters' sub attribute in 'custom_options' attribute contains incorrect value","Стойността за ""максимален брой знаци"" sub атрибут в ""custom_options"" атрибут съдържа неправилна стойност"
@@ -2066,7 +2169,12 @@ End,Край
 "Custom options have different types.","Персонализираните опции имат различни типове."
 "Every option entity must have a parent product entity.","Всеки опционнен продукт трябва да има родителски продукт."
 "Please correct the parameters.","Моля коригирайте параметрите."
+"Filename is too long; must be %1 characters or less","Името на файла е твърде дълго; трябва да съдържа %1 знака или по-малко"
+"Could not parse resource url.","Url адресът на ресурса не можа да се парсира."
+"Disallowed file type.","Неразрешен файлов тип."
+"Import images directory must be writable in order to process remote images.","Директорията за импортиране на изображения трябва да може да се записва, за да се обработват отдалечени изображения."
 "File '%1' was not found or has read restriction.","Файлът ""%1"" не е намерен или е прочел ограничение."
+"Invalid Stock data for insert","Невалидни данни за Магазин за вмъкване"
 "Minimum Qty","Минимално количество"
 "Add Minimum Qty","Добави минимално количество"
 "Could not rebuild index for empty products array","Не можем да конструираме отново индекс за празен продуктов масив"
@@ -2194,6 +2302,8 @@ Priority,Приоритет
 Relevance,Приложимост
 "Search results for: '%1'","Резултати от търсене за: '%1'"
 "Minimum Search query length is %1","Минималаната дължина на заявката за търсене  %1"
+"Search term is empty","Фразата за търсене е празна"
+"Enter a search term and try again.","Въведете търсения термин и опитайте отново."
 "%1 and greater","%1 и по-голямо"
 "up to %1","до %1"
 "Search Settings","Настройки на търсене"
@@ -2209,6 +2319,8 @@ Relevance,Приложимост
 "Popular Search Terms","Популярни думи за търсене"
 "Minimal Query Length","Минимална дължина на заявката"
 "Maximum Query Length","Максимална дължина на заявката"
+"Autocomplete Limit","Ограничение за Автодовършване"
+"Enable EAV Indexer","Активиране на EAV Индексатора"
 "Rebuild Catalog product fulltext search index","Възстановяване на търсене на пълнотекстов индекс на продукт в каталога"
 "The requested price is not found.","Не е открита исканата цена."
 "Update %1 from %2 to %3.","Актуализиране на %1 от %2 до %3."
@@ -5101,7 +5213,6 @@ items,артикули
 "All Users","Всички потребители"
 "Admin Actions Log","Регистър на администраторските дейтсвия"
 "Admin Actions Archive","Архив на администраторските действия"
-Report,Доклад
 "actions' 'label","действия 'етикет"
 "%1 & applied","%1 & приложен"
 "Tax Rates Import","Данъчни ставки вносни"
@@ -5124,7 +5235,6 @@ IP-Address,"IP адрес"
 "Related Changes","Свързани промени"
 Logging,Записване
 Archive,Архив
-"Action Logs","Регистър на действията"
 "Admin Actions Log Archiving","Вход за архивиране на администраторски действия"
 "Log Entry Lifetime, Days","Живот на записания регистрационен файл в дни"
 "Log Archiving Frequency","Архивиране честотата на регистъра"
@@ -5514,7 +5624,6 @@ Declined,Отказано
 "%fileType is not an allowed file type. Please select a different file.","%fileType не е разрешен тип файл. Моля изберете друг файл."
 "The maximum file name length is 20 characters. The only special symbols that are allowed in the file name are: dash and underscore. Row ID: %fieldName = %fieldValue","Максималната дължина на име на файл е 20 символа. Единствените разрешени специални символи са: тире и подчертаване. Ред ID: %fieldName = %fieldValue"
 "Cannot attach the file %filename. The maximum allowed file size is %size Mb.","Не може да се прикрепи файлът %filename. Максималната разрешена големина на файл е %size Mb."
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" е задължителен. Въведете и опитайте пак."
 "Invalid attribute value. Row ID: %fieldName = %fieldValue","Невалидана стойност на атрибут. Row ID: %fieldName = %fieldValue"
 "Invalid attribute value. The price must be NULL, 0 or a positive number. Row ID: %fieldName = %fieldValue","Невалидна стойност на атрибут. Цената трябва да е NULL, 0 или положително число. Ред ID: %fieldName = %fieldValue"
 "You cannot update the quote status.","Не може да промените статуса на квотата."
@@ -8148,8 +8257,6 @@ testMessage,текстовоСъобщение
 "For the best experience on our site, be sure to turn on Local Storage in your browser.","За най-добър опит на нашия сайт не забравяйте да включите местни съхранение във вашия браузър."
 "Items %1 to %2 of %3 total","Артикули %1 до %2 от %3 общо"
 "%1 Item(s)","%1 елемент(и)"
-Page,Страница
-"You're currently reading page","В момента четете страница"
 "We don't recognize this file extension.","Не можем да разпознаем това файлово разширение."
 "1 column","1 колона"
 "Default welcome msg!","Съобщение за Добре дошли!"
@@ -8205,7 +8312,6 @@ Off,Изключен
 "You have successfully saved your edits.","Успешно сте записали вашите редакции."
 "There are {placeholder} messages requires your attention.","Има {placeholder} съобщения изисква вашето внимание."
 "You haven't selected any items!","Не сте избрали никакви елементи!"
-"Search by keyword","Търсене по ключова дума"
 Keyword,"Ключова дума"
 "Please enter more or equal than {0} symbols.","Въведете повече или равно от {0} символи."
 "Please enter less or equal than {0} symbols.","Въведете повече или равно от {0} символи."
@@ -8802,7 +8908,6 @@ Translate,Преведи
 "First character must be letter.","Първият символ трябва да е буква."
 "Please select one of the options above.","Моля, изберете една от опциите по-горе."
 "Please select a file.","Моля, изберете файл."
-"This is a required field.","Това поле е задължително."
 "Please select one of the options.","Моля, изберете една от опциите."
 "Please enter a value less than or equal to %s.","Моля, въведете стойност по-малка от или равна на %s."
 "Please enter a value greater than or equal to %s.","Моля въведете стойност по-голяма от или равна на %s."
