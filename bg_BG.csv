@@ -1230,7 +1230,7 @@ or,или
 Company,Фирма
 Address,Адрес
 State/Province,"Област / Провинция"
-"Please select region, state or province","Моля изберете регион, щат или провинция"
+"Please select region, state or province","Моля изберете област или провинция"
 "Zip/Postal Code","Пощенски код"
 "Add Credit Card","Добавяне на кредитна карта"
 "Card Number","Номер на карта"
@@ -2851,7 +2851,7 @@ Company:,Фирма:
 "VAT/TAX ID","ДДС/ДАНЪК ID"
 "Re-seller ID","ID на посредник"
 "Legal Address","Валиден адрес"
-"Please select a region, state or province.","Моля изберете регион, щат или провинция."
+"Please select a region, state or province.","Моля изберете област или провинция."
 "Phone Number",Телефон
 "Company Administrator","Администратор на Компания"
 "Job Title",Длъжност
@@ -3624,7 +3624,7 @@ InputException,"Изключение за вписване,"
 "Validator Exception","Валидатор изключение"
 "Localized Exception","Локализирани изключения"
 "NOT LOGGED IN","НЕ Е ВПИСАН"
-"Please enter the state/province.","Моля въведете щат/провинция."
+"Please enter the state/province.","Моля въведете област/провинция."
 "region is a required field.","регионът е задължително поле."
 Label,Етикет
 Visitor,Посетител
@@ -3865,7 +3865,7 @@ Street,Улица
 "Delete address","Изтриване на адрес"
 "Are you sure you want to delete the address?","Наистина ли искате да изтриете този адрес?"
 "Additional addresses","Допълнителни адресни записи"
-State,Щат
+State,Област
 "Reset password","Възстановяване на парола"
 "Invalidate tokens","Анулиране на ""жетони"""
 "Update Address","Промени адрес"
@@ -4077,8 +4077,8 @@ contains,съдържа
 "Default Address","Адрес по подразбиране"
 Billing,Фактуриране
 "Customer Address %1 Default %2 Address","Клиент адрес %1 по подразбиране %2 адрес"
-"Has State/Province","Има щат/провинция"
-"If Customer Address %1 State/Province specified","Ако клиентски адрес %1 щат/провинция е зададен"
+"Has State/Province","Има област/провинция"
+"If Customer Address %1 State/Province specified","Ако клиентски адрес %1 област/провинция е зададен"
 has,има
 "does not have",няма
 exists,съществува
@@ -4887,7 +4887,7 @@ Full,Пълен
 "Is Listed","Е в списъка"
 "Edit Gift Registry","Редактиране на регистър подарък"
 "Create Gift Registry","Създаване на регистър подарък"
-"Please select a region, state or province","Моля изберете регион, щат или провинция"
+"Please select a region, state or province","Моля изберете област или провинция"
 "View Gift Registry %1","Покажи подарък регистър %1"
 "Share '%1' Gift Registry","Акция ""%1"" подарък регистър"
 "Gift Registry Search","Подарък регистър за търсене"
@@ -6440,7 +6440,7 @@ Help,Помощ
 "The PayPal gateway rejected the request. %1","PayPal gateway отхвърля искането. %1"
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Съжалявам - но ние не бяхме в състояние да обработим плащането ви. Опитайте друг метод на плащане или се свържете с нас, така че ние може да ви помогне."
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Съжалявам - но ние не сме в състояние да завършим вашата сделка. Моля свържете се с нас, за да ви помогнем."
-"A match of the Shipping Address City, State, and Postal Code failed.","Неуспешно съвпадение на адреса за доставка град, щат и пощенски код."
+"A match of the Shipping Address City, State, and Postal Code failed.","Неуспешно съвпадение на адреса за доставка област, град и пощенски код."
 "The payment method code is not set.","Кодът на метода на плащане не е зададен."
 "The reference ID is not set.","Референтното ID не е зададено."
 "Unable to save Billing Agreement:","Споразумението за таксуване не може да се запази:"
@@ -7998,6 +7998,7 @@ Unassign,"Отмени присвояването"
 "Please enter the phone number.","Моля, въведете телефон."
 "Please enter the zip/postal code.","Моля въведете пощенски код."
 "Please enter the country.","Моля въведете държава."
+"Please enter the state/province.","Моля въведете щат/провинция."
 "The creditmemo contains product item that is not part of the original order.","Кредитно изв. съдържа елемент на продукт, който не е част от първоначалния ред."
 "The quantity to refund must not be greater than the unrefunded quantity.","Количеството на възстановяване не трябва да надхвърля количеството, невъзстановени."
 "Maximum shipping amount allowed to refund is: %1","Максималния брой за връщане на пратки е: %1"
@@ -9502,7 +9503,7 @@ Keyword,"Ключова дума"
 "Please enter a valid date.","Моля, въведете валидна дата."
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Моля, въведете валиден URL ключ (Ex: ""например-страница"", ""пример-page.html"" или ""anotherlevel/пример-страница"")."
 "Please enter a valid zip code.","Моля, въведете валиден пощенски код."
-"Please select State/Province.","Моля, изберете щат/провинция."
+"Please select State/Province.","Моля, изберете област/провинция."
 "Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Моля, въведете валидни имейл адреси, разделени със запетаи. За пример johndoe@domain.com, johnsmith@domain.com."
 "Please enter issue number or start date for switch/solo card type.","Въведете номер на издаване или начална дата за switch/solo карта тип."
 "Please enter positive number in this field.","Въведете положително число в това поле."
