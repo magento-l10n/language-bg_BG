@@ -5821,7 +5821,7 @@ InvalidArgumentException,ИзключениеНевалиденАргумент
 "Shipping Information","Информация за доставка"
 "Billing Information","Информация за фактуриране"
 "Order Success","Поръчка успеваемост"
-"Default Billing","Фактуриране по подразбиране"
+"Default Billing","Основен адрес за фактуриране"
 "Default Shipping","Доставка по подразбиране"
 "Select Address","Изберете Адрес"
 "Back to Billing Information","Обратно към информация за фактуриране"
